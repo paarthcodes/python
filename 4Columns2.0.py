@@ -1,0 +1,30 @@
+from turtle import *
+
+speed(10)
+penup()
+goto(-100,200)
+left(180)
+forward(100)
+left(90)
+pendown()
+for i in range(4):
+    forward(400)
+    left(90)
+    forward(100)
+    left(90)
+    forward(400)
+    right(90)
+    forward(100)
+    right(90)
+
+penup()
+goto(-200,200)
+seth(0)
+pendown()
+for i in range(2):
+    forward(400)
+    right(90)
+    forward(400)
+    right(90)
+forward(400)
+right(90)

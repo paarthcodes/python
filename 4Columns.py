@@ -1,0 +1,15 @@
+from turtle import *
+
+penup()
+goto(-100,200)
+pendown()
+right(90)
+forward(400)
+penup()
+goto(0,200)
+pendown()
+forward(400)
+penup()
+goto(100,200)
+pendown()
+forward(400)
